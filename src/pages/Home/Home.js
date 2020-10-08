@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../index.css'
 import { Container, Row, Col, Button, Jumbotron } from 'reactstrap'
-import me from '../../photos/me.jpg'
+import me from '../../photos/me2.jpeg'
 import Project from '../../components/Project'
 import bluesIt from '../../photos/logo.png'
 
@@ -17,7 +17,7 @@ const Home = () => {
             <div className="intro text-center">
               <h1>Hello, my name is <span className="devinCastro">Devin Castro.</span></h1>
               <h2>I'm a Full Stack Web Developer.</h2>
-              <p className="small">And I play guitar.</p>
+              
             </div>
 
 
