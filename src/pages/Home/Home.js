@@ -14,10 +14,10 @@ const Home = () => {
         <div>
           <Container>
 
-            <div className="text-center">
+            <div className="intro text-center">
               <h1>Hello, my name is <span className="devinCastro">Devin Castro.</span></h1>
               <h2>I'm a Full Stack Web Developer.</h2>
-              <p>And I play guitar.</p>
+              <p className="small">And I play guitar.</p>
             </div>
 
 
