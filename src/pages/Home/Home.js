@@ -97,7 +97,7 @@ const Home = () => {
           </div>
 
 
-          <div className="text-center">
+          <div className="projects text-center">
             <h1>My recent work</h1>
             <Container>
               <Row>
@@ -161,6 +161,15 @@ const Home = () => {
             <div className="bio">
               <h3>Let's work together soon!</h3>
               <a target='_blank' href="https://github.com/DevinCastro/"><img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg" alt="github"/></a>
+              {" "}
+              <a target='_blank' href="https://www.linkedin.com/in/devin-castro-17a62bba/"><img className="logo" src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-outline.png" alt="linkedin"/></a>
+              {" "}
+              <a href="mailto:devincastro321@gmail.com"><img className="logo" src="https://i.pinimg.com/originals/1b/3b/ec/1b3bec070f7bb1c007dbaaeafaeb21b7.png" alt="github"/></a>
+              
+              <br/>
+              <br/>
+
+              <a target='_blank' href="https://drive.google.com/file/d/1pE07hDFEvdWTlyh2Q-xbgQdJAPXp5QmW/view?usp=sharing"><Button className="resume">View my resume</Button></a>
             </div>
           </div>
 

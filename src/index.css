@@ -53,6 +53,10 @@ body {
   color: #104c91;
 }
 
+.card {
+  border-radius: 5%;
+}
+
 .projectPhoto {
   width: 100%;
   height: 300px;
@@ -66,6 +70,7 @@ body {
 
 .imgWrap:hover .description {
   visibility: visible;
+  border-radius: 5%;
   opacity: 1;
 }
 
@@ -96,8 +101,17 @@ body {
   border: none;
 }
 
-a > img:hover {
+a>img:hover {
   opacity: .5;
+}
+
+.projects {
+  margin-bottom: -5rem;
+}
+
+.resume {
+  background-color: #201b29;
+  border-radius: 25px !important;
 }
 
 @media only screen and (max-width: 500px) {
