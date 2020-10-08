@@ -52,3 +52,42 @@ body {
 .isBlue {
   color: #104c91;
 }
+
+.projectPhoto {
+  width: 100%;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.imgWrap {
+  position: relative;
+}
+
+.imgWrap:hover .description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.black {
+  background-color: #100E17;
+}
+
+.description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(1, 7, 10, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .08s, visibility .1s;
+}
+
+
+.modal-body, .modal-header, .modal-footer {
+  background-color: #201b29;
+  color: white;
+  border: none;
+}

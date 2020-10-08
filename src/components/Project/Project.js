@@ -13,22 +13,28 @@ const Project = props => {
   return (
     <>
       <div>
-        <Button color="danger" onClick={toggle}><img className="projectPhoto" src={props.image} alt={props.name} /></Button>
-        <Modal isOpen={modal} toggle={toggle}>
+        <Card className='imgWrap black text-center'>
+
+          <div className='description'>
+            <h1>{props.name}</h1>
+            <Button onClick={toggle}>More Details</Button>
+          </div>
+
+          <img className="projectPhoto" src={props.image} alt={props.name} />
+          <Modal isOpen={modal} toggle={toggle}>
           <ModalHeader toggle={toggle}>{props.name}</ModalHeader>
           <ModalBody>
       
-            <h1 className="display-3">{props.name}</h1>
             <p className="lead">{props.technology}</p>
             <hr className="my-2" />
             <p>{props.description}</p>
 
 
           <p className="lead">
-            <Button color="primary">
+                <Button color="#104c91">
               <a className="deployedLink" href={props.link} target='_blank'>Link to App</a>
             </Button>{' '}
-            <Button color="primary">
+                <Button color="#104c91">
               <a className="deployedLink" href={props.repo} target='_blank'>Link to Repo</a>
             </Button>
           </p>
@@ -37,6 +43,7 @@ const Project = props => {
             <Button color="secondary" onClick={toggle}>Close</Button>
           </ModalFooter>
         </Modal>
+        </Card>
       </div>
 
 

@@ -103,6 +103,20 @@ const Home = () => {
                 <Col md='4'>
                   
                   <Project
+                    name={'Busks in Town'}
+                    technology={'This application uses node and express to set up the server and utilizes a mySQL database. '}
+                    description={'Busks in town allows a user to create an artist account filled with their photo, bio, genre, bio, and social media links.  Then that artist can create upcoming concerts and post when and where those concerts will be held!'}
+                    link={'https://guarded-crag-60613.herokuapp.com/'}
+                    repo={'https://github.com/datrimboli/BusksInTown'}
+                    image={'https://guarded-crag-60613.herokuapp.com/photos/mainPhoto.jpg'}
+
+                  />
+
+
+                </Col>
+                <Col md='4'>
+                  
+                  <Project
                     name={'Blues It'}
                     technology={'Full Stack MERN Application.  Includes fully functional user authentication with passport and true image upload.'}
                     description={'This application is a music oriented social media platform. While most social platforms are littered with advertising, specific display algorithms, and sell your data, BluesIt provides a clean and intuitive interface for musicians and music lovers to share their thoughts and interests with each other. Log in and start checking out some of the threads that might interest you, and then post and share your thoughts! When you see a post you are interested in, give it a like and or comment on that thread and share your thoughts with the user who made that post!'}
@@ -111,12 +125,6 @@ const Home = () => {
                     image={'https://user-images.githubusercontent.com/65981639/94970039-a4c80e80-04b8-11eb-93fa-76592b62facc.png'}
 
                   />
-
-
-                </Col>
-                <Col md='4'>
-                  
-                  <h1>one</h1>
 
 
                 </Col>
