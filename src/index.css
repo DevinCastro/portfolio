@@ -17,7 +17,7 @@ body {
   color: #104c91;
 }
 
-.blue {
+.blue, .navbar-toggler {
   background-color: #104c91 !important
 }
 

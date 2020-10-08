@@ -29,16 +29,17 @@ const App = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <a href="#techSkills">Tech Skills</a>
-                <a href="#myWork">My Work</a>
-                <a href="#contact">Contact</a>
+                <a className="myNav" href="#techSkills">Tech Skills</a>
               </NavItem>
-              {/* <NavItem>
-                <NavLink><Link to="/myPortfolio">Portfolio</Link></NavLink>
-              </NavItem>
+              {" "}
               <NavItem>
-                <NavLink><Link to="/contactMe">Contact</Link></NavLink>
-              </NavItem> */}
+                <a className="myNav" href="#myWork">My Work</a>
+              </NavItem>
+              {" "}
+              <NavItem>
+                <a className="myNav" href="#contact">Contact</a>
+              </NavItem>
+              
             </Nav>
           </Collapse>
         </Navbar>
