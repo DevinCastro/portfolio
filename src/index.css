@@ -10,6 +10,7 @@ body {
   width: 166px;
   height: 200px;
   border-radius: 50%;
+  box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
 .devinCastro {
@@ -38,6 +39,7 @@ body {
   margin-right: 30px;
   background-color: #100E17;
   border: #ffffff solid 1px;
+  box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
 .logo {

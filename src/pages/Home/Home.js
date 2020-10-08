@@ -58,7 +58,7 @@ const Home = () => {
                   <br/>
                   UI frameworks:
                   <br/>
-Bootstrap, React UI Components
+                  Bootstrap, React UI Components
                   </p>
                 </Col>
 
@@ -87,14 +87,20 @@ Bootstrap, React UI Components
                     MySQL, MongoDB 
                   </p>
                 </Col>
-
-
-
               </Row>
-
             </Jumbotron>
 
+
+
           </div>
+
+
+          <div className="text-center">
+            <h1>My recent work</h1>
+            
+
+          </div>
+
 
 
         </div>
