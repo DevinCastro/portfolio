@@ -16,8 +16,10 @@ const Project = props => {
         <Card className='imgWrap black text-center'>
 
           <div className='description'>
+            <div className="cardText">
             <h1>{props.name}</h1>
             <Button onClick={toggle}>More Details</Button>
+            </div>
           </div>
 
           <img className="projectPhoto" src={props.image} alt={props.name} />

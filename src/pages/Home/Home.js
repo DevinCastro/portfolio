@@ -156,7 +156,7 @@ const Home = () => {
 
           </div>
 
-
+          <a name="contact"></a>
           <div className="blue text-center">
             <div className="bio">
               <h3>Let's work together soon!</h3>

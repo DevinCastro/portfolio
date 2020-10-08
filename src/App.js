@@ -20,14 +20,18 @@ const App = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Router>
+    <>
+     {/* <Router> */}
+    
       <nav>
         <Navbar color="#100E17" light expand="md">
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink><Link to="/react-portfolio">Home</Link></NavLink>
+                <a href="#techSkills">Tech Skills</a>
+                <a href="#myWork">My Work</a>
+                <a href="#contact">Contact</a>
               </NavItem>
               {/* <NavItem>
                 <NavLink><Link to="/myPortfolio">Portfolio</Link></NavLink>
@@ -38,15 +42,17 @@ const App = () => {
             </Nav>
           </Collapse>
         </Navbar>
-        <Switch>
+        {/* <Switch>
           <Route exact path="/react-portfolio" component={Home} />
           <Route path="/myPortfolio" component={Portfolio} />
           <Route path="/contactMe" component={Contact} />
-        </Switch>
+        </Switch> */}
       </nav>
 
      
-    </Router>
+     {/* </Router> */}
+    <Home />
+    </>
   )
 }
 

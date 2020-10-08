@@ -78,6 +78,10 @@ body {
   background-color: #100E17;
 }
 
+.cardText {
+  margin-top: 3rem;
+}
+
 .description {
   position: absolute;
   top: 0;
