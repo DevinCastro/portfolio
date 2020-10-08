@@ -135,6 +135,7 @@ const Home = () => {
                     name={'Google Book Search'}
                     technology={'This is MERN application. Utilizing MongoDB for my database , Express to handle our server, React to handle the front end, and Node.js to connect the backend. We also utilize a 3rd party api for google books to get the books from their database. We are also using reactstrap, and react-router-dom.'}
                     description={'This is a full stack MERN web application that allows a user to search for any book by its name. Then a list of books will populate as search results, and the user can see the book title, cover, description, authors, and the link to the the book info. The user can then save that book into their dashboard'}
+                    link={'https://warm-peak-53739.herokuapp.com'}
                     repo={'https://github.com/DevinCastro/google-books-search'}
                     image={'https://freesvg.org/img/help-books.png'}
 
