@@ -22,21 +22,21 @@ const Project = props => {
 
           <img className="projectPhoto" src={props.image} alt={props.name} />
           <Modal isOpen={modal} toggle={toggle}>
-          <ModalHeader toggle={toggle}>{props.name}</ModalHeader>
+            <ModalHeader toggle={toggle}><h1>{props.name}</h1></ModalHeader>
           <ModalBody>
       
-            <p className="lead">{props.technology}</p>
+            <p>{props.technology}</p>
             <hr className="my-2" />
             <p>{props.description}</p>
 
 
-          <p className="lead">
-                <Button color="#104c91">
-              <a className="deployedLink" href={props.link} target='_blank'>Link to App</a>
-            </Button>{' '}
-                <Button color="#104c91">
-              <a className="deployedLink" href={props.repo} target='_blank'>Link to Repo</a>
-            </Button>
+          <p className="lead text-center">
+                
+                <a className="deployedLink" href={props.link} target='_blank'><Button color="info">Link to App </Button></a>
+           {' '}
+                
+                <a className="deployedLink" href={props.repo} target='_blank'><Button color="info">Link to Repo</Button></a>
+            
           </p>
           </ModalBody>
           <ModalFooter>
