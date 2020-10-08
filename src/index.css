@@ -84,12 +84,20 @@ body {
   visibility: hidden;
   opacity: 0;
   transition: opacity .08s, visibility .1s;
+  -webkit-transition: opacity .08s, visibility .1s;
+  -moz-transition: opacity .08s, visibility .1s;
+  -ms-transition: opacity .08s, visibility .1s;
+  -o-transition: opacity .08s, visibility .1s;
 }
 
 .modal-body, .modal-header, .modal-footer {
   background-color: #201b29;
   color: white;
   border: none;
+}
+
+a > img:hover {
+  opacity: .5;
 }
 
 @media only screen and (max-width: 500px) {

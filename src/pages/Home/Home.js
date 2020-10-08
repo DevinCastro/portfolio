@@ -157,6 +157,15 @@ const Home = () => {
           </div>
 
 
+          <div className="blue text-center">
+            <div className="bio">
+              <h3>Let's work together soon!</h3>
+              <a target='_blank' href="https://github.com/DevinCastro/"><img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg" alt="github"/></a>
+            </div>
+          </div>
+
+
+
 
         </div>
 
