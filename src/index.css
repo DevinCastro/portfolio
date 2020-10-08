@@ -85,9 +85,15 @@ body {
   transition: opacity .08s, visibility .1s;
 }
 
-
 .modal-body, .modal-header, .modal-footer {
   background-color: #201b29;
   color: white;
   border: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutMe {
+   padding-left: 10px;
+   padding-right: 10px;
+  }
 }
