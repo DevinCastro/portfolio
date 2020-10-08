@@ -3,6 +3,7 @@ import '../../index.css'
 import { Container, Row, Col, Button, Jumbotron } from 'reactstrap'
 import me from '../../photos/me.jpg'
 import Project from '../../components/Project'
+import bluesIt from '../../photos/logo.png'
 
 
 
@@ -122,7 +123,7 @@ const Home = () => {
                     description={'This application is a music oriented social media platform. While most social platforms are littered with advertising, specific display algorithms, and sell your data, BluesIt provides a clean and intuitive interface for musicians and music lovers to share their thoughts and interests with each other. Log in and start checking out some of the threads that might interest you, and then post and share your thoughts! When you see a post you are interested in, give it a like and or comment on that thread and share your thoughts with the user who made that post!'}
                     link={'https://desolate-sands-65866.herokuapp.com/'}
                     repo={'https://github.com/DevinCastro/BluesIt'}
-                    image={'https://user-images.githubusercontent.com/65981639/94970039-a4c80e80-04b8-11eb-93fa-76592b62facc.png'}
+                    image={bluesIt}
 
                   />
 
