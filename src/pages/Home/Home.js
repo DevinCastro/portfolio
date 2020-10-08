@@ -41,6 +41,7 @@ const Home = () => {
               <Row>
                 <h1></h1>
                 <Col md="4 text-center">
+                  <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo"/>
                   <h1>Front End</h1>
                   <p>
                     Web Frameworks:
@@ -62,6 +63,7 @@ Bootstrap, React UI Components
                 </Col>
 
                 <Col md="4 text-center">
+                  <img className="logo" src="https://n7.nextpng.com/sticker-png/247/568/sticker-png-computer-icons-others-miscellaneous-administrative-tools-tools-icon-tool-thumbnail.png" alt=""/>
                   <h1>Back End</h1>
                   <p>
                     Scripts (server-side):
