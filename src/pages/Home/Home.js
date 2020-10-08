@@ -37,6 +37,8 @@ const Home = () => {
             </div>
           </div>
 
+
+          <a name='techSkills'></a>
           <div>
 
             <Jumbotron className="jumbotron">
@@ -96,7 +98,7 @@ const Home = () => {
 
           </div>
 
-
+          <a name='myWork'></a>
           <div className="projects text-center">
             <h1>My recent work</h1>
             <Container>
