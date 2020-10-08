@@ -46,3 +46,7 @@ body {
   filter: invert(100%);
   -webkit-filter: invert(100%);
 }
+
+.isBlue {
+  color: #104c91;
+}
