@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../index.css'
 import { Container, Row, Col, Button, Jumbotron } from 'reactstrap'
-import me from '../../photos/me2.jpeg'
+import me from '../../photos/me3.jpg'
 import Project from '../../components/Project'
 import bluesIt from '../../photos/logo.png'
 
@@ -48,8 +48,6 @@ const Home = () => {
                   <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo"/>
                   <h1 className="isBlue">Front End</h1>
                   <p>
-                    Web Frameworks:
-                    <br/>
                     HTML5, CSS3
                   <br />
                   <br />
