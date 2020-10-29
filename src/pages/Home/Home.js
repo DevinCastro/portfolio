@@ -17,7 +17,7 @@ const Home = () => {
             <div className="intro text-center">
               <h1>Hello, my name is <span className="devinCastro">Devin Castro.</span></h1>
               <h2>I'm a Full Stack Web Developer.</h2>
-              
+
             </div>
 
 
@@ -45,47 +45,47 @@ const Home = () => {
               <Row>
                 <h1></h1>
                 <Col md="4 text-center">
-                  <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo"/>
+                  <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo" />
                   <h1 className="isBlue">Front End</h1>
                   <p>
                     HTML5, CSS3
                   <br />
-                  <br />
+                    <br />
                   Scripts (client-side):
-                  <br/>
+                  <br />
                   JavaScript, jQuery, React.js
-                  <br/>
+                  <br />
                   AJAX, RESTful API’s
-                  <br/>
-                  <br/>
+                  <br />
+                    <br />
                   UI frameworks:
-                  <br/>
+                  <br />
                   Bootstrap, React UI Components
                   </p>
                 </Col>
 
                 <Col md="4 text-center">
-                  <img className="logo" src="https://static.thenounproject.com/png/9658-200.png" alt="icon"/>
+                  <img className="logo" src="https://static.thenounproject.com/png/9658-200.png" alt="icon" />
                   <h1 className="isBlue">Database</h1>
                   <p>
-                    MySQL, MongoDB 
+                    MySQL, MongoDB
                   </p>
                 </Col>
                 <Col md="4 text-center">
-                  <img className="logo" src="https://static.thenounproject.com/png/3190581-200.png" alt="icon"/>
+                  <img className="logo" src="https://static.thenounproject.com/png/3190581-200.png" alt="icon" />
                   <h1 className="isBlue">Back End</h1>
                   <p>
                     Scripts (server-side):
-                    <br/>
+                    <br />
                     Node.js, Express.js
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     Node Package Managers:
-                    <br/>
+                    <br />
 
-                    Express, Sequelize, Express-handlebars, 
-                    <br/>
-                    Mongoose, Axios   
+                    Express, Sequelize, Express-handlebars,
+                    <br />
+                    Mongoose, Axios
                   </p>
                 </Col>
 
@@ -102,7 +102,7 @@ const Home = () => {
             <Container>
               <Row>
                 <Col md='4'>
-                  
+
                   <Project
                     name={'Busks in Town'}
                     technology={'This application uses node and express to set up the server and utilizes a mySQL database. '}
@@ -116,7 +116,7 @@ const Home = () => {
 
                 </Col>
                 <Col md='4'>
-                  
+
                   <Project
                     name={'Blues It'}
                     technology={'Full Stack MERN Application.  Includes fully functional user authentication with passport and true image upload.'}
@@ -130,7 +130,7 @@ const Home = () => {
 
                 </Col>
                 <Col md='4'>
-                  
+
                   <Project
                     name={'Google Book Search'}
                     technology={'This is MERN application. Utilizing MongoDB for my database , Express to handle our server, React to handle the front end, and Node.js to connect the backend. We also utilize a 3rd party api for google books to get the books from their database. We are also using reactstrap, and react-router-dom.'}
@@ -160,14 +160,14 @@ const Home = () => {
           <div className="blue text-center">
             <div className="bio">
               <h3>Let's work together soon!</h3>
-              <a target='_blank' href="https://github.com/DevinCastro/"><img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg" alt="github"/></a>
+              <a target='_blank' href="https://github.com/DevinCastro/"><img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg" alt="github" /></a>
               {" "}
-              <a target='_blank' href="https://www.linkedin.com/in/devin-castro-17a62bba/"><img className="logo" src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-outline.png" alt="linkedin"/></a>
+              <a target='_blank' href="https://www.linkedin.com/in/devin-castro-17a62bba/"><img className="logo" src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-outline.png" alt="linkedin" /></a>
               {" "}
-              <a href="mailto:devincastro321@gmail.com"><img className="logo" src="https://i.pinimg.com/originals/1b/3b/ec/1b3bec070f7bb1c007dbaaeafaeb21b7.png" alt="github"/></a>
-              
-              <br/>
-              <br/>
+              <a href="mailto:devincastro321@gmail.com"><img className="logo" src="https://i.pinimg.com/originals/1b/3b/ec/1b3bec070f7bb1c007dbaaeafaeb21b7.png" alt="github" /></a>
+
+              <br />
+              <br />
 
               <h4>(909) 438-5415</h4>
               <h5>devincastro321@gmail.com</h5>
