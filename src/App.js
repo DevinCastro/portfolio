@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
-import Contact from './pages/Contact'
 import {
   Collapse,
   Navbar,
@@ -21,7 +20,6 @@ const App = () => {
 
   return (
     <>
-     {/* <Router> */}
     
       <nav>
         <Navbar color="#100E17" light expand="md">
@@ -43,15 +41,8 @@ const App = () => {
             </Nav>
           </Collapse>
         </Navbar>
-        {/* <Switch>
-          <Route exact path="/react-portfolio" component={Home} />
-          <Route path="/myPortfolio" component={Portfolio} />
-          <Route path="/contactMe" component={Contact} />
-        </Switch> */}
+      
       </nav>
-
-     
-     {/* </Router> */}
     <Home />
     </>
   )
