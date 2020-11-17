@@ -45,7 +45,7 @@ const Home = () => {
               <Row>
                 <h1></h1>
                 <Col md="4 text-center">
-                  <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo" />
+``                  <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo" />
                   <h1 className="isBlue">Front End</h1>
                   <p>
                     HTML5, CSS3
@@ -132,12 +132,12 @@ const Home = () => {
                 <Col md='4'>
 
                   <Project
-                    name={'Google Book Search'}
-                    technology={'This is MERN application. Utilizing MongoDB for my database , Express to handle our server, React to handle the front end, and Node.js to connect the backend. We also utilize a 3rd party api for google books to get the books from their database. We are also using reactstrap, and react-router-dom.'}
-                    description={'This is a full stack MERN web application that allows a user to search for any book by its name. Then a list of books will populate as search results, and the user can see the book title, cover, description, authors, and the link to the the book info. The user can then save that book into their dashboard'}
-                    link={'https://warm-peak-53739.herokuapp.com'}
-                    repo={'https://github.com/DevinCastro/google-books-search'}
-                    image={'https://freesvg.org/img/help-books.png'}
+                    name={'Lewis Cleanup Services'}
+                    technology={'This is purely front-end React App. Utilizing React.js to create "service" components to ensure DRY coding principles. This app is hosted with netlify.'}
+                    description={'This is a freelance project for a client that offers specific clean up services.  This application allows any user to see what this company has to offer in a very creative interactive gallery.  The user can see all the services offered and a desciption of each service.  I was responsible for everything from development to production and deployment.  I will continue having a relationship with this client and maintain their website.'}
+                    link={'https://lewiscleanupservices.com'}
+                    repo={'https://github.com/DevinCastro/lewis-cleanup-services'}
+                    image={'https://www.lewiscleanupservices.com/static/media/finalLogo.69ffa712.png'}
 
                   />
 
