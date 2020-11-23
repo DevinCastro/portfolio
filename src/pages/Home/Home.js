@@ -45,7 +45,7 @@ const Home = () => {
               <Row>
                 <h1></h1>
                 <Col md="4 text-center">
-``                  <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo" />
+                  <img className="logo" src="https://www.flaticon.com/svg/static/icons/svg/2166/2166822.svg" alt="logo" />
                   <h1 className="isBlue">Front End</h1>
                   <p>
                     HTML5, CSS3
